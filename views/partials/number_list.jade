@@ -1,0 +1,20 @@
+h3 Список номеров
+a.btn.btn-success(href='#/create') Добавить
+a.btn.btn-default(href='#/list2') Пробный с ui-grid
+hr
+
+table.table.table-bordered
+    thead
+        tr
+            th Название
+            th Номер
+            th
+            th
+    tbody(ng-repeat="number in numbers")
+        tr
+            td {{number.title}}
+            td {{number.number}}
+            td
+                a.btn.btn-default(href='#/view/{{number.id}}') Просмотр
+            td
+                a.btn.btn-danger(ng-click='delete($index)') Удалить

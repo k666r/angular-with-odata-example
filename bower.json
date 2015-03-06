@@ -1,0 +1,17 @@
+{
+  "name": "oData-example",
+  "version": "0.0.1",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components"
+  ],
+  "dependencies": {
+    "angular": "~1.3.0",
+    "angular-route": "~1.3.0",
+    "angular-resource": "~1.3.3",
+    "angular-touch": "*",
+    "bootstrap": "~3.3.2"
+  }
+}

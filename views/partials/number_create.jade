@@ -1,0 +1,27 @@
+h3 Добавление номера
+form.form.form-horizontal
+    .form-group
+        label.col-sm-2.control-label(for='input1') Название
+        .col-sm-2
+            input#input1.form-control(ng-model='number.title' placeholder='Название')
+    .form-group
+        label.col-sm-2.control-label(for='input2') Номер
+        .col-sm-2
+            input#input2.form-control(ng-model='number.number' placeholder='Номер')
+    .form-group
+        label.col-sm-2.control-label(for='input3') Код
+        .col-sm-2
+            input#input3.form-control(ng-model='number.code' placeholder='Код')
+    .form-group
+        label.col-sm-2.control-label(for='input4') Линии
+        .col-sm-2
+            input#input4.form-control(ng-model='number.lines' placeholder='Линии')
+    .form-group
+        label.col-sm-2.control-label(for='input5') Члены
+        .col-sm-2
+            input#input5.form-control(ng-model='number.members' placeholder='Члены')
+    .form-group
+        label.col-sm-2.control-label(for='input6') Регион
+        .col-sm-2
+            input#input6.form-control(ng-model='number.region' placeholder='Регион')
+    button.btn.btn-primary(ng-click='save()') Сохранить

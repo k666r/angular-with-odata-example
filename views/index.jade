@@ -1,0 +1,14 @@
+doctype html
+html(lang='ru')
+    head
+        link(rel='stylesheet', href='/bower_components/bootstrap/dist/css/bootstrap.min.css')
+        script(src='/bower_components/angular/angular.min.js')
+        script(src='/bower_components/angular-route/angular-route.min.js')
+        script(src='/bower_components/angular-resource/angular-resource.min.js')
+        script(src='/bower_components/angular-touch/angular-touch.min.js')
+        script(src="/public/lib/ui-grid.min.js")
+        link(rel='stylesheet', href="/public/lib/ui-grid.min.css")
+        script(src="/public/lib/odata.js")
+        script(src="/public/app/app.js")
+    body(ng-app='odata')
+        div(ng-view)
